@@ -2,21 +2,21 @@
 
 int main() {
     // Declare variables to store the numbers
-    int num1, num2;
+    int n1, n2;
     
     // Prompt the user to enter the first number
     std::cout << "Enter the first number: ";
-    std::cin >> num1;
+    std::cin >> n1;
     
     // Prompt the user to enter the second number
     std::cout << "Enter the second number: ";
-    std::cin >> num2;
+    std::cin >> n2;
     
     // Calculate the sum of the two numbers
-    int sum = num1 + num2;
+    int sum = n1 + n2;
     
     // Print the result
-    std::cout << "The sum of " << num1 << " and " << num2 << " is: " << sum << std::endl;
+    std::cout << "The sum of " << n1 << " and " << n2 << " is: " << sum << std::endl;
     
     return 0;
 }
